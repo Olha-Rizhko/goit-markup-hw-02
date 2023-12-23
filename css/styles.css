@@ -1,11 +1,11 @@
 body {
   font-family: "Roboto", sans-serif;
-  color: #2e2f42;
+  color: #434455;
+  background-color: #ffffff;
 }
 
 a {
   text-decoration: none;
-  font-style: normal;
 }
 
 ul {
@@ -33,23 +33,24 @@ ul {
 }
 
 .page-header-navigation-logo {
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-align: left;
   text-transform: uppercase;
+  color: #4d5ae5;
 }
 
-.page-header-navigation-logo-blue {
+.page-header-navigation-logo-dark-blue {
   font-family: Raleway;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-align: left;
-  color: #4d5ae5;
+  color: #2e2f42;
   text-transform: uppercase;
 }
 
@@ -65,6 +66,7 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: left;
+  color: #2e2f42;
 }
 
 .page-header-navigation-link:hover,
@@ -88,6 +90,7 @@ ul {
   letter-spacing: 0.02em;
   text-align: left;
   color: #434455;
+  font-style: normal;
 }
 
 .page-header-contacts-link:hover,
@@ -111,7 +114,7 @@ ul {
 }
 
 .hero-btn {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -131,12 +134,18 @@ ul {
 
 /*TODO---------------FEATURES-------------------*/
 .features {
+  background-color: #f4f4fd;
+}
+
+.features-title {
+  text-transform: capitalize;
 }
 
 .features-list {
 }
 
 .features-item {
+  background-color: #ffffff;
 }
 
 .features-subtitle {
@@ -145,14 +154,14 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: left;
+  color: #2e2f42;
 }
 
 .features-item-text {
   font-size: 16px;
-  line-height: 1.2;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: left;
-  color: #434455;
 }
 
 /*TODO----------------------------------*/
@@ -166,6 +175,7 @@ ul {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
 }
 
 .team-list {
@@ -183,6 +193,7 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: center;
+  color: #2e2f42;
 }
 
 .team-item-text {
@@ -190,7 +201,6 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
-  color: #434455;
 }
 
 /*TODO----------------------------------*/
@@ -221,6 +231,7 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: left;
+  color: #2e2f42;
 }
 
 .potfolio-item-text {
@@ -228,7 +239,6 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: left;
-  color: #434455;
 }
 
 /*TODO----------------------------------*/
@@ -239,23 +249,24 @@ ul {
 }
 
 .page-footer-logo {
-  font-family: Raleway;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-align: left;
-  color: #f4f4fd;
-}
-
-.page-footer-logo-blue {
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-align: left;
   color: #4d5ae5;
+  text-transform: uppercase;
+}
+
+.page-footer-logo-white {
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #f4f4fd;
 }
 
 .page-footer-text {
