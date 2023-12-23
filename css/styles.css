@@ -134,7 +134,6 @@ ul {
 
 /*TODO---------------FEATURES-------------------*/
 .features {
-  background-color: #f4f4fd;
 }
 
 .features-title {
@@ -162,12 +161,14 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: left;
+  color: #434455;
 }
 
 /*TODO----------------------------------*/
 
 /*TODO---------------TEAM-------------------*/
 .team {
+  background-color: #f4f4fd;
 }
 
 .team-title {
@@ -201,6 +202,7 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
+  color: #434455;
 }
 
 /*TODO----------------------------------*/
@@ -239,6 +241,7 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: left;
+  color: #434455;
 }
 
 /*TODO----------------------------------*/
