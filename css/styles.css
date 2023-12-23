@@ -12,7 +12,7 @@ ul {
   list-style-type: none;
 }
 
-.visually-hidden {
+/*.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -22,7 +22,7 @@ ul {
   white-space: nowrap;
   clip-path: inset(100%);
   overflow: hidden;
-}
+}*/
 
 /*TODO--------------HEADER--------------------*/
 
@@ -75,6 +75,7 @@ ul {
 }
 
 .page-header-contacts {
+  font-style: normal;
 }
 
 .page-header-contacts-list {
@@ -90,7 +91,6 @@ ul {
   letter-spacing: 0.02em;
   text-align: left;
   color: #434455;
-  font-style: normal;
 }
 
 .page-header-contacts-link:hover,
@@ -178,6 +178,7 @@ ul {
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
+  color: #2e2f42;
 }
 
 .team-list {
@@ -218,6 +219,7 @@ ul {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  color: #2e2f42;
 }
 
 .potfolio-list {
